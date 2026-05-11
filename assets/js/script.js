@@ -137,10 +137,17 @@ console.log(`${numberN} è pari: ${evenNumber}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-function triangle(type) {}
 let sideA = 3;
 let sideB = 4;
 let sideC = 5;
 let perimeter = sideA + sideB + sideC;
 
-console.log(`perimetro ${perimeter}`);
+if (sideA === sideB && sideB === sideC) {
+  console.log(`triangolo equilatero, perimetro ${perimeter}`);
+}
+
+if (sideA === sideB && sideB !== sideC) {
+  console.log(`triangolo isoscele, perimetro ${perimeter}`);
+} else {
+  console.log(`triangolo scaleno, perimetro ${perimeter}`);
+}
