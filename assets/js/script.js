@@ -142,13 +142,5 @@ let sideA = 3;
 let sideB = 4;
 let sideC = 5;
 let perimeter = sideA + sideB + sideC;
-let triangoloEquilatero = sideA === sideB && === sideC;
-let triangoloIsoscele = sideA === sideB && !== sideC;
-let triangoloScaleno = sideA !== sideB && !== sideC;
 
 console.log(`perimetro ${perimeter}`);
-
-console.log(`perimetro ${perimeter}`);
-
-console.log(`perimetro ${perimeter}`);
-
