@@ -60,7 +60,8 @@ console.log(
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let age = 25;
-console.log(age >= 18);
+let adultPerson = age >= 18;
+console.log(`Sei maggiorenne? ${adultPerson}`);
 
 /* ESERCIZIO 5 — Tipo del valore
    Cinque variabili: una string, una number, una boolean, una null, una undefined.
