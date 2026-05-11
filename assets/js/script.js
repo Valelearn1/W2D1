@@ -137,7 +137,7 @@ console.log(`${numberN} è pari: ${evenNumber}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-function triangle(side) {}
+function triangle(type) {}
 let sideA = 3;
 let sideB = 4;
 let sideC = 5;
